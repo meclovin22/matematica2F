@@ -1,5 +1,5 @@
  :root {
-    --cor_de_fundo: #240200;
+    --cor_de_fundo: #beb8b8;
     --cor_da_fonte: #154658;
 }
  * {
@@ -12,8 +12,10 @@
 
   .banner {
     width: 100%;
-    height: 100px;
+    height: 65px;
     background-color: var(--cor_de_fundo);
+    padding: 5px;
+    text-align: center;
 
   }
   .rodape {
@@ -24,3 +26,31 @@
     
 
   }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:325px;
+  
+  }
+
+
+  .smaller-image {
+    width: 400px;
+    height: 325px;
+  }
+  .textn1 {
+   
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  
