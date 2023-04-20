@@ -54,3 +54,14 @@
   }
 
   
+  .centrao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px; 
+  }
+
+  .imagem-pequena {
+    width: 300px; 
+    height: auto;
+  }
